@@ -90,7 +90,7 @@ class Map:
                 cell = self.cells[ri][ci]
                 if cell == 5:
                    self.cells[ri][ci] = 0
-                   helico.score -= TREE_BONUS / 2
+                   helico.score -= TREE_BONUS
         for i in range(5):
             self.add_fire()
 
